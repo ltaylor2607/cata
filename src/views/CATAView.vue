@@ -1,167 +1,212 @@
 <template>
-    <div>
-        <h1>CATA — School Systems Alignment Audit</h1>
-        <p>Your systems are working hard. Are they working together?
-        CATA reviews the six domains at the heart of your school — curriculum, teaching,
-        assessment, data, timetable and governance — and identifies exactly where they&#39;re
-        misaligned, what it&#39;s costing you, and what to fix first.</p>
-        <h2>Commission an audit</h2>
-        <p>Sound familiar?
-        &quot;Our data doesn&#39;t reflect our assessment outcomes.&quot;
+  <section>
+    <div class="section-label">
+      CATA Framework
+    </div>
+    <h1>CATA: A Framework for Building High-Performing Teams</h1>
+    <p>CATA is the diagnostic backbone of Alygn Education. It gives you a structured way to see where your systems are working together — and where they’re quietly working against each other. Most organisations don’t have a quality problem; they have an alignment problem.</p>
+  </section>
 
-        &quot;Teaching has improved but results still haven&#39;t moved.&quot;
-        &quot;We&#39;ve done the curriculum work. It&#39;s not translating.&quot;
-        These aren&#39;t domain problems. They&#39;re alignment problems — and reviewing each
-        domain in isolation won&#39;t fix them. CATA looks at how your systems interact,
-        because that&#39;s where the real friction lives.</p>
-    </div>
-    <div>
-        <h2>HOW IT WORKS</h2>
-        <h3>The process</h3>
-        <p>A 1–2 day audit. A report within 5 working days.
-        The process is straightforward by design. Before arriving, I review your
-        documentation. On site, I gather evidence across all six domains. The report and
-        action planning session follow within a week.</p>
-        <p>01 — Pre-audit preparation Leaders share key documentation ahead of the visit —
-        schemes of work, assessment calendars, data outputs, timetable structures,
-        governance minutes. On-site time is spent on evidence and conversation, not
-        reading.</p>
-        <p>02 — On-site audit (1–2 days) Structured evidence gathering across all six domains:
-        leadership discussion, learning walks where appropriate, data review and targeted
-        conversations with staff. Each domain scored against defined levers.</p>
-        <p>03 — Report + action planning Full alignment report delivered within 5 working days.
-        Followed by a working session with SLT — and governors where appropriate — to
-        agree priorities, owners and next steps.</p>
-    </div>
-    <div>
-        <h2>SIX DOMAINS</h2>
-        <h3>The framework</h3>
-        <p>Six domains. Twenty-six levers. One system picture.</p>
-        <p>CATA scores each domain against defined levers using a 1–4 framework based on
-        observable evidence. But the real value is in what happens next — the cross-domain
-        breakpoint analysis that shows where systems are grinding against each other.</p>
-        <p>Curriculum Is the curriculum intent coherently designed, logically sequenced, and
-        consistently implemented across staff and year groups? </p>
-        <p>Levers: Coverage ·  Sequence · Progression · Consistency</p>
-        <p>Teaching &amp; Learning Is teaching evidence-informed, consistently applied, and
-        responsive to what students are actually learning in real time?</p>
-        <p>Levers: Consistency ·   Quality · Responsiveness · Pedagogy</p>
-        <p>Assessment Does assessment serve a clear purpose, align to the taught curriculum,
-        and produce reliable evidence that feeds into decision-making? </p>
-        <p>Levers: Purpose · Alignment · Design · Reliability</p>
-        <p>Data Systems Is data accurate, clearly understood by staff, and systematically used
-        to drive decisions and trigger timely interventions?</p>
-        <p>Levers: Accuracy · Clarity ·  Decisions · Interventions</p>
-        <p>Timetable Does the timetable create the structural conditions for curriculum delivery
-        — contact time, specialist deployment, PPA alignment, and space for intervention?</p>
-        <p>Levers: Contact ratio · Distribution · Specialism · Flexibility</p>
-    </div>
-    <div>
-        <h2>BREAKPOINT ANALYSIS</h2>
-        <h3>The differentiator</h3>
-        <h4>Breakpoint analysis — where CATA goes further</h4>
-        <p>A breakpoint is where two domains interact in a way that creates risk neither can
-        resolve alone. CATA identifies 30 potential cross-domain breakpoints and gives
-        every one a three-state status.</p>
-        <p>TRIGGERED — Assessment → Data Systems Assessment instruments don&#39;t align
-        with data entry fields. Staff are translating outcomes into a format the system can
-        accept — adding admin, introducing error, producing a dashboard that doesn&#39;t reflect
-        reality.</p>
-        <p>WARNING — Curriculum → Assessment Curriculum sequencing is strong but
-        assessment in several departments doesn&#39;t yet map to the taught content. Risk of
-        misalignment widening as curriculum develops without assessment catching up.</p>
-        <p>CLEAR — Timetable → Governance Timetable structure is well-designed and
-        governors are actively reviewing it as part of the annual cycle. This interaction is
-        functioning — no action required at this stage.</p>
-    </div>
-    <div>
-        <h2>WHAT YOU RECEIVE</h2>
-        <p>Every audit includes the report and a working action session.
-        The report stands alone — you don&#39;t need to commission anything else to act on it.
-        The action planning session is included as standard and is a working session, not a
-        presentation.</p>
-        <ul>
-            <li>CATA Alignment Report (every audit)</li>
-            <li>Overall alignment rating with systems narrative</li>
-            <li>RAG-rated dashboard across all six domains</li>
-            <li>Lever-level scores with evidence-based findings</li>
-            <li>Full cross-domain breakpoint analysis (Triggered / Warning / Clear)</li>
-            <li>Sequenced action plan — owners, timelines, expected impact</li>
-            <li>Key themes identifying root-cause systemic patterns</li>
-            <li>Action Planning Session (included)</li>
-            <li>Working debrief with SLT or full governing body</li>
-            <li>Walk-through of breakpoint findings and priorities</li>
-            <li>Collective agreement on sequencing and ownership</li>
-            <li>Discussion of where follow-on support would add most value</li>
-            <li>Report shared in editable format for your own planning</li>
+  <section>
+    <div class="two-col">
+      <div class="card">
+        <span class="section-label">What CATA is</span>
+        <h2>Six domains, one alignment question.</h2>
+        <p>CATA looks at six domains that shape the experience of learners and staff:</p>
+        <ul class="list-plain">
+          <li>Curriculum</li>
+          <li>Teaching &amp; Learning</li>
+          <li>Assessment</li>
+          <li>Data &amp; Analytics</li>
+          <li>Timetable</li>
+          <li>Governance</li>
         </ul>
+        <p>The core idea is simple: it’s not just the quality of each domain that matters — it’s the quality of alignment between them. Misalignment is where workload, confusion and inconsistency creep in.</p>
+      </div>
+
+      <div class="card">
+        <span class="section-label">Why alignment matters</span>
+        <h2>Good people can’t fix bad systems.</h2>
+        <p>When curriculum says one thing, assessment measures another, data reports something else and the timetable quietly undermines everything, even the best staff end up firefighting.</p>
+        <p>CATA exposes the hidden breakpoints so you can fix the system, not the symptoms.</p>
+      </div>
     </div>
-    <div>
-        <h2>FOLLOW-ON SERVICES</h2>
-        <h3>Beyond the audit</h3>
-        <p>Follow-on services — from the action plan, or as a standalone commission.
-Every service can be commissioned as a direct follow-on from the audit action plan,
-or independently. Schools that come via the audit know exactly what they need and
-why — which means the work is more focused and the impact is faster.</p>
-<p>
-Curriculum Design &amp; Review Scheme of work development, knowledge sequencing,
-specification mapping and implementation support for whole-school or departmental
-curriculum redesign.</p>
-<p> From action plan · Standalone</p>
-<p>Teaching &amp; Learning CPD Evidence-informed T&amp;L framework design, instructional
-coaching cycles and whole-staff or departmental CPD programmes. Linked to audit
-findings or delivered independently.</p>
-<p>From action plan · Standalone</p>
-<p>
-Timetable Design &amp; Restructure Contact ratio analysis, specialist deployment review,
-option block redesign and full timetable construction. Covers staffing, budget
-alignment, PPA and intervention capacity. </p>
-<p>From action plan · Standalone</p>
-<p>Assessment &amp; Data Systems Data architecture review, dashboard design, staff data
-literacy training and intervention-linkage systems. Addresses the most commonly
-triggered breakpoint in CATA audits. </p>
-<p>From action plan · Standalone</p>
-<p>Governance Support Governor data literacy sessions, reporting redesign and
-governance cycle reviews. Helps boards scrutinise performance effectively and
-challenge leaders with confidence. </p>
-<p>From action plan · Standalone</p>
-<p>Re-audit &amp; Progress Review A structured 6-month follow-up audit that re-scores all
-domains, tracks action plan progress and identifies emerging misalignments before
-they become systemic. </p>
-<p>Follow-on</p>
+  </section>
+
+  <section>
+    <div class="section-label">
+      How it works
     </div>
-<div>
-    <h2>Why CATA</h2>
-    <h3>Built differently. For the problem that keeps reappearing.</h3>
-    <p>CATA isn&#39;t another review framework. It was built specifically because existing
-models — however good within a domain — don&#39;t look at the relationships between
-domains. That&#39;s the gap it fills.</p>
-<p>
-Relational, not reductionist CATA looks at how your systems interact — not just how
-each performs individually. Most persistent school improvement problems are
-relational. CATA is designed to find them.</p>
-<p>Evidence-led throughout Every score is anchored to observable evidence mapped
-against published scoring anchors. No impressionistic ratings. No guesswork. Every
-finding is traceable to what was seen or read.</p>
-<p>Actionable by design The report doesn&#39;t just describe — it prescribes. Breakpoints
-surface root causes, not symptoms. Actions are sequenced by systemic priority so
-you know what to do first and why.</p>
-<p>Adapted to your context Works for single schools, MATs, FE colleges and
-apprenticeship providers. The six domains and 26 levers adapt to your setting. The
-rigour and the evidence standard don&#39;t.</p>
-</div>
-<div>
-    <h2>Commission a CATA audit for your school or trust</h2>
-    <p>If you lead a school, trust or college and recognise the problems described above —
-I&#39;d genuinely like to talk. No obligation. Just a conversation about whether this is the
-right fit.</p>
-</div>
+    <h2>The CATA Audit Process</h2>
+        
+    <div
+      class="two-col"
+      style="margin-top:1.5rem;"
+    >
+      <div class="card">
+        <span class="pill">1. Pre-audit</span>
+        <h3>Scoping and document review</h3>
+        <p>A short scoping call to understand your context, followed by a review of key documents:</p>
+        <ul class="list-plain">
+          <li>Curriculum plans</li>
+          <li>Timetables</li>
+          <li>Assessment policies</li>
+          <li>Data reports</li>
+          <li>Governance papers</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="pill">2. Audit</span>
+        <h3>Interviews, evidence and scoring</h3>
+        <p>Conversations with leaders and staff, review of systems and documentation, and scoring across all domains.</p>
+        <p>The focus is on alignment — where systems support each other, and where they quietly pull in different directions.</p>
+      </div>
+    </div>
+
+    <div
+      class="two-col"
+      style="margin-top:1.5rem;"
+    >
+      <div class="card">
+        <span class="pill">3. Reporting</span>
+        <h3>Your alignment map</h3>
+        <p>You receive a full alignment report including:</p>
+        <ul class="list-plain">
+          <li>Domain scores and narrative</li>
+          <li>Cross-domain breakpoints</li>
+          <li>Key themes and risks</li>
+          <li>A sequenced action plan</li>
+        </ul>
+        <p>It’s clear, honest and practical — no jargon, no padding.</p>
+      </div>
+
+      <div class="card">
+        <span class="pill">4. Follow-up</span>
+        <h3>Turning insight into action</h3>
+        <p>We walk through the report together and agree what you’ll tackle first. Some organisations take it from there; others ask for support with curriculum, timetable, assessment or AI work.</p>
+        <p>Either way, you leave with clarity.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <span class="section-label">Sample report</span>
+      <h2>See what this looks like in practice</h2>
+      <p>The sample report shows how each domain is scored, where misalignment is doing the most damage, what’s working well and should be protected, and a realistic set of next steps. Please note that this report is fictitious.</p>
+      <SimpleCarousel
+        :images="reportPages"
+        max-height="550px"
+      />
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <span class="section-label">Pricing</span>
+      <h2>Flexible for single schools and multi-site organisations</h2>
+      <p class="note"><strong>Note: </strong>All prices below are indicative guide prices for discussion. Final fees are agreed based on school size, scope, travel and any additional requirements. Day rate available on request.</p>
+      <h3>Pricing philosophy</h3>
+      <p>The CATA offer is structured around genuine value to the school, not artificial complexity. Three tiers exist for one reason: different schools are at different stages and need different levels of support after the audit. All three tiers include the same core audit and report. Agreed cost will be final, and no additional charges or day rate will be added on.</p>
+      <p class="important">The audit stands alone. You don’t need to commission follow-on work to get full value from Tier 1. The tiers simply reflect how much hands-on implementation support you want after the report is delivered.</p>
+
+      <h3>Core offer</h3>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 4em;">Tier</th>
+            <th>Name</th>
+            <th>Price guide</th>
+            <th>What's included</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tier 1</td>
+            <td>Audit + Action Plan</td>
+            <td>£400 - £800</td>
+            <td>
+              <ul>
+                <li>Full pre-audit document review</li>
+                <li>1–2 day on-site audit across all six domains</li>
+                <li>Complete CATA Alignment Report (RAG dashboard, domain findings, breakpoint analysis, action plan, key themes)</li>
+                <li>Action planning session with SLT / governing body</li>
+                <li>Report in editable format</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Tier 2</td>
+            <td>Audit + Implementation Support</td>
+            <td>£1,000 - £3,000</td>
+            <td>
+              <ul>
+                <li>Everything in Tier 1, plus:</li>
+                <li>Up to 2 follow-on support days (domain of highest priority from action plan)</li>
+                <li>Mid-point check-in call (4–6 weeks post-audit)</li>
+                <li>Written progress summary at 3 months</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Tier 3</td>
+            <td>Audit + Ongoing Partnership</td>
+            <td>£2,000 - £5,000</td>
+            <td>
+              <ul>
+                <li>Everything in Tier 2, plus:</li>
+                <li>Half-termly support visits (up to 4 days across the year)</li>
+                <li>Re-audit at 6 months with updated report</li>
+                <li>Priority access for ad hoc calls and advice</li>
+                <li>Discounted rate on additional standalone commissions</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Want to know more?</h2>
+    <p>The easiest next step is a short call to work out whether CATA is the right tool for what you’re trying to do.</p>
+    <ContactButton />
+  </section>
 </template>
 
 <script setup lang="ts">
+import ContactButton from '@/components/ContactButton.vue';
+import { ref } from 'vue';
 
+const reportPages = ref([
+    {img: require("@/assets/report/Report pg 1.png"), alt: "Report page 1. Shows the front page of the report for Thornfield Academy, a fictional school."},
+    {img: require("@/assets/report/Report pg 2.png"), alt: "Report page 2. Shows an overview of the CATA audit and how it works."},
+    {img: require("@/assets/report/Report pg 3.png"), alt: "Report page 3. Shows an overview of the school's alignment and priority actions."},
+    {img: require("@/assets/report/Report pg 4.png"), alt: "Report page 4. Shows the audit dashboard."},
+    {img: require("@/assets/report/Report pg 5.png"), alt: "Report page 5. Shows a more detailed breakdown of the assessment for Curriculum, Teaching and Learning, and Assessment."},
+    {img: require("@/assets/report/Report pg 6.png"), alt: "Report page 6. Shows a more detailed breakdown of the assessment for Data Systems, Timetable and Governance."},
+    {img: require("@/assets/report/Report pg 7.png"), alt: "Report page 7. Shows the breakpoints."},
+    {img: require("@/assets/report/Report pg 8.png"), alt: "Report page 8. Shows the suggested action plan for improving alignment."},
+    {img: require("@/assets/report/Report pg 9.png"), alt: "Report page 9. Shows key themes and next steps."},
+]);
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+table {
+  background-color: var(--background-green);
+  border: 1px solid var(--sage);
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 1000px;
 
+  th, td {
+    border: 1px solid var(--sage);
+    padding: 0.25rem 0.5rem;
+
+    ul {
+      margin: 0 0 0 1rem;
+    }
+  }
+}
 </style>

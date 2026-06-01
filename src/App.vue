@@ -2,17 +2,46 @@
   <header>
     <div class="nav-inner">
       <div class="logo">
-        <router-link to="/"><img alt="Alygn Education logo" src="./assets/logo.png" class="logo-img" /></router-link>
+        <router-link to="/">
+          <img
+            alt="Alygn Education logo"
+            src="./assets/logo.png"
+            class="logo-img"
+          >
+        </router-link>
       </div>
 
       <nav>
         <ul>
-          <li><router-link to="/cata">CATA Framework</router-link></li>
-          <li><router-link to="/about">About</router-link></li>
+          <li>
+            <router-link to="/">
+              What We Do
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/">
+              Our Work
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/cata">
+              CATA Framework
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/">
+              Insights
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/about">
+              About
+            </router-link>
+          </li>
         </ul>
       </nav>
       
-      <router-link class="nav-cta" to="/">Book a call</router-link>
+      <ContactButton />
     </div>
   </header>
   
@@ -25,9 +54,24 @@
       <div>© <span id="year">{{ year }}</span> Alygn Education. All rights reserved.</div>
 
       <div class="footer-links">
-        <router-link to="/">Home</router-link>
-        <router-link to="/cata">CATA Framework</router-link>
-        <router-link to="/about">About</router-link>
+        <router-link to="/">
+          Home
+        </router-link>
+        <router-link to="/">
+          What We Do
+        </router-link>
+        <router-link to="/">
+          Our Work
+        </router-link>
+        <router-link to="/cata">
+          CATA Framework
+        </router-link>
+        <router-link to="/">
+          Insights
+        </router-link>
+        <router-link to="/about">
+          About
+        </router-link>
       </div>
     </div>
   </footer>
@@ -49,9 +93,13 @@ const year = new Date().getFullYear();
   --offwhite: #f7f7f5;
   --text: #1f1f1f;
   --muted: #555555;
+  --warn: #FFF8E6;
+  --warn-text: #7D5A00;
+  --error: #F5EDEE;
   --max-width: 1500px;
   --radius: 8px;
   --shadow-soft: 0 8px 20px rgba(0,0,0,0.06);
+  --background-green: #e5ebe6;
 }
 
 * {
@@ -146,22 +194,6 @@ header {
       font-weight: 500;
     }
   }
-
-  .nav-cta {
-    padding: 0.4rem 0.9rem;
-    border-radius: 999px;
-    border: 2px solid var(--forest);
-    color: var(--forest);
-    background: white;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-decoration: none;
-
-    &:hover {
-      background: var(--forest);
-      color: white;
-    }
-  }
 }
 
 // TODO add in new nav for mobile
@@ -194,6 +226,12 @@ main {
     .two-col {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.75rem;
+    }
+
+    .two-col-img-first {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
       gap: 1.75rem;
     }
 
@@ -232,6 +270,22 @@ main {
         color: var(--muted);
         margin-bottom: 0.3rem;
       }
+    }
+
+    .note {
+      background-color: var(--warn);
+      color: var(--warn-text);
+      padding: 0.75rem 1rem;
+      border-left:2px solid var(--warn-text);
+      font-size: 0.9rem;
+    }
+
+    .important {
+      background-color: var(--error);
+      color: var(--burgundy);
+      padding: 0.75rem 1rem;
+      border-left:2px solid var(--burgundy);
+      font-size: 0.9rem;
     }
   }
 }
