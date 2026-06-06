@@ -47,18 +47,13 @@
       </p>
       <ul class="list-plain">
         <li><strong>Peak Intelligence</strong> — curriculum and apprenticeship design, digital apprenticeship delivery</li>
-        <li><strong>UK Skills Academy</strong> — curriculum, corporate and apprenticeship training</li>
       </ul>
       <p>
         These partnerships keep the work honest. If it doesn’t stand up in real delivery, it doesn’t go on the website.
       </p>
     </div>
   </section>
-  <section>
-    <h2>Want to talk about your context?</h2>
-    <p>Whether you’re dealing with misalignment, planning a curriculum or programme build, or exploring AI capability, the easiest next step is a conversation.</p>
-    <ContactButton />
-  </section>
+  <KnowMore />
 </template>
 
 <script setup lang="ts">

@@ -14,13 +14,13 @@
       <nav>
         <ul>
           <li>
-            <router-link to="/">
+            <router-link to="/whatwedo">
               What We Do
             </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Our Work
+            <router-link to="/services">
+              Services
             </router-link>
           </li>
           <li>
@@ -29,14 +29,22 @@
             </router-link>
           </li>
           <li>
-            <router-link to="/">
-              Insights
+            <router-link to="/pricing">
+              Pricing
             </router-link>
           </li>
           <li>
             <router-link to="/about">
               About
             </router-link>
+          </li>
+          <li>
+            <a
+              href="https://theeducationwayfarer.wordpress.com/"
+              target="_blank"
+            >
+              Insights
+            </a>
           </li>
         </ul>
       </nav>
@@ -57,21 +65,27 @@
         <router-link to="/">
           Home
         </router-link>
-        <router-link to="/">
+        <router-link to="/whatwedo">
           What We Do
         </router-link>
-        <router-link to="/">
-          Our Work
+        <router-link to="/services">
+          Services
         </router-link>
         <router-link to="/cata">
           CATA Framework
         </router-link>
-        <router-link to="/">
-          Insights
+        <router-link to="/pricing">
+          Pricing
         </router-link>
         <router-link to="/about">
           About
         </router-link>
+        <a
+          href="https://theeducationwayfarer.wordpress.com/"
+          target="_blank"
+        >
+          Insights
+        </a>
       </div>
     </div>
   </footer>
@@ -285,6 +299,13 @@ main {
       color: var(--burgundy);
       padding: 0.75rem 1rem;
       border-left:2px solid var(--burgundy);
+      font-size: 0.9rem;
+    }
+
+    .success {
+      background-color: var(--sage);
+      padding: 0.75rem 1rem;
+      border-left: 2px solid var(--forest);
       font-size: 0.9rem;
     }
   }

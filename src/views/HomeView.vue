@@ -111,11 +111,9 @@
       <div class="partner-tag">
         <strong>Peak Intelligence -</strong> curriculum &amp; apprenticeship design, digital apprenticeship delivery
       </div>
-      <div class="partner-tag">
-        <strong>UK Skills Academy -</strong> curriculum, corporate &amp; apprenticeship training
-      </div>
     </div>
   </section>
+  <KnowMore />
 </template>
 
 <script setup lang="ts">

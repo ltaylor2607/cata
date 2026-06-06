@@ -1,7 +1,6 @@
 <template>
-  <test />
   <router-link
-    to="/"
+    to="/contact"
     class="btn-primary"
   >
     Book a call

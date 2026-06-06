@@ -21,10 +21,30 @@ const routes: Array<RouteRecordRaw> = [
     name: "cata",
     component: () => import("../views/CATAView.vue"),
   },
+  {
+    path: "/whatwedo",
+    name: "whatwedo",
+    component: () => import("../views/WhatWeDoView.vue"),
+  },
+  {
+    path: "/services",
+    name: "services",
+    component: () => import("../views/ServicesView.vue"),
+  },
+  {
+    path: "/pricing",
+    name: "pricing",
+    component: () => import("../views/PricingView.vue"),
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: () => import("../views/BookCallView.vue"),
+  }
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 
