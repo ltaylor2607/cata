@@ -108,15 +108,15 @@
 import { ref } from 'vue';
 
 const reportPages = ref([
-    {img: require("@/assets/report/Report pg 1.png"), alt: "Report page 1. Shows the front page of the report for Thornfield Academy, a fictional school."},
-    {img: require("@/assets/report/Report pg 2.png"), alt: "Report page 2. Shows an overview of the CATA audit and how it works."},
-    {img: require("@/assets/report/Report pg 3.png"), alt: "Report page 3. Shows an overview of the school's alignment and priority actions."},
-    {img: require("@/assets/report/Report pg 4.png"), alt: "Report page 4. Shows the audit dashboard."},
-    {img: require("@/assets/report/Report pg 5.png"), alt: "Report page 5. Shows a more detailed breakdown of the assessment for Curriculum, Teaching and Learning, and Assessment."},
-    {img: require("@/assets/report/Report pg 6.png"), alt: "Report page 6. Shows a more detailed breakdown of the assessment for Data Systems, Timetable and Governance."},
-    {img: require("@/assets/report/Report pg 7.png"), alt: "Report page 7. Shows the breakpoints."},
-    {img: require("@/assets/report/Report pg 8.png"), alt: "Report page 8. Shows the suggested action plan for improving alignment."},
-    {img: require("@/assets/report/Report pg 9.png"), alt: "Report page 9. Shows key themes and next steps."},
+    {img: require("@/assets/Report pg 1.png"), alt: "Report page 1. Shows the front page of the report for Thornfield Academy, a fictional school."},
+    {img: require("@/assets/Report pg 2.png"), alt: "Report page 2. Shows an overview of the CATA audit and how it works."},
+    {img: require("@/assets/Report pg 3.png"), alt: "Report page 3. Shows an overview of the school's alignment and priority actions."},
+    {img: require("@/assets/Report pg 4.png"), alt: "Report page 4. Shows the audit dashboard."},
+    {img: require("@/assets/Report pg 5.png"), alt: "Report page 5. Shows a more detailed breakdown of the assessment for Curriculum, Teaching and Learning, and Assessment."},
+    {img: require("@/assets/Report pg 6.png"), alt: "Report page 6. Shows a more detailed breakdown of the assessment for Data Systems, Timetable and Governance."},
+    {img: require("@/assets/Report pg 7.png"), alt: "Report page 7. Shows the breakpoints."},
+    {img: require("@/assets/Report pg 8.png"), alt: "Report page 8. Shows the suggested action plan for improving alignment."},
+    {img: require("@/assets/Report pg 9.png"), alt: "Report page 9. Shows key themes and next steps."},
 ]);
 </script>
 
