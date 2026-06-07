@@ -24,7 +24,8 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Deploying to github pages
-build the project then run
+Build the project, and create a commit - ensuring that the CNAME file is not deleted. Then run:
+
 ```
 git subtree push --prefix dist origin gh-pages
 ```
