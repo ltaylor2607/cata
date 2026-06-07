@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <section>
     <div class="section-label">
@@ -37,22 +38,7 @@
       </div>
     </div>
   </section>
-
-  <section>
-    <div class="card">
-      <span class="section-label">Partners &amp; current work</span>
-      <h2>Grounded in real delivery</h2>
-      <p>
-        Recent and current work includes:
-      </p>
-      <ul class="list-plain">
-        <li><strong>Peak Intelligence</strong> — curriculum and apprenticeship design, digital apprenticeship delivery</li>
-      </ul>
-      <p>
-        These partnerships keep the work honest. If it doesn’t stand up in real delivery, it doesn’t go on the website.
-      </p>
-    </div>
-  </section>
+  
   <KnowMore />
 </template>
 

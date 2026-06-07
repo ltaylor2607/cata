@@ -1,10 +1,11 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <section>
     <div class="section-label">
       Contact
     </div>
     <h1>Let's talk about what isn't quite working</h1>
-    <p>Most of my work starts with a conversation about an idea, a frustration or a pattern someone recognises in their own organisation. If something here resonates, get in touch using the form below or email me directly.</p>
+    <p>Most of our work starts with a conversation about an idea, a frustration or a pattern someone recognises in their own organisation. If something here resonates, get in touch using the form below or email us directly.</p>
   </section>
 
   <section>
@@ -19,11 +20,11 @@
           >Name <span class="char-count">{{ form.name.length }}/50</span></label>
           <input
             id="name"
+            v-model="form.name"
             name="name"
             type="text"
             required
             class="form-input"
-            v-model="form.name"
             maxlength="50"
           >
         </div>
@@ -34,11 +35,11 @@
           >Email<span class="char-count">{{ form.email.length }}/100</span></label>
           <input
             id="email"
+            v-model="form.email"
             name="email"
             type="email"
             required
             class="form-input"
-            v-model="form.email"
             maxlength="100"
           >
         </div>
@@ -49,21 +50,24 @@
           >Role <span class="char-count">{{ form.role.length }}/50</span></label>
           <input
             id="role"
+            v-model="form.role"
             name="role"
             type="text"
             class="form-input"
-            v-model="form.role"
             maxlength="50"
           >
         </div>
         <div class="form-section">
-          <label class="form-label" for="organisation">Organisation <span class="char-count">{{ form.organisation.length }}/100</span></label>
+          <label
+            class="form-label"
+            for="organisation"
+          >Organisation <span class="char-count">{{ form.organisation.length }}/100</span></label>
           <input
             id="organisation"
+            v-model="form.organisation"
             name="organisation"
             type="text"
             class="form-input"
-            v-model="form.organisation"
             maxlength="100"
           >
         </div>
@@ -74,9 +78,9 @@
           >What are you interested in?</label>
           <select
             id="interest"
+            v-model="form.interest"
             name="interest"
             class="form-input"
-            v-model="form.interest"
           >
             <option value="">
               Select an option
@@ -93,10 +97,10 @@
           <label class="form-label">Details<span class="char-count">{{ form.message.length }}/2000</span></label>
           <textarea
             id="message"
+            v-model="form.message"
             class="form-input"
             name="message"
             rows="4"
-            v-model="form.message"
             maxlength="2000"
           />
         </div>
@@ -106,10 +110,30 @@
         >
           Send message
         </button>
-        <div class="success" v-if="isSubmitting">Submitting....</div>
-        <div class="success" v-if="successMessage">Thank you for contacting us. We will aim to get back to you within 48 hours.</div>
-        <div class="important" v-if="errorMessage">An unexpected error occurred. Please try again or email me directly at: <a href="mailto:g.taylor@alygneducation.co.uk">g.taylor@alygneducation.co.uk</a></div>
-        <div class="note" v-if="!isValid">One or more of the fields is not valid. Please ensure that the email is correct, and that name, role, and organisation contain only letters.</div>
+        <div
+          v-if="isSubmitting"
+          class="success"
+        >
+          Submitting....
+        </div>
+        <div
+          v-if="successMessage"
+          class="success"
+        >
+          Thank you for contacting us. We will aim to get back to you within 48 hours.
+        </div>
+        <div
+          v-if="errorMessage"
+          class="important"
+        >
+          An unexpected error occurred. Please try again or email me directly at: <a href="mailto:g.taylor@alygneducation.co.uk">g.taylor@alygneducation.co.uk</a>
+        </div>
+        <div
+          v-if="!isValid"
+          class="note"
+        >
+          One or more of the fields is not valid. Please ensure that the email is correct, and that name, role, and organisation contain only letters.
+        </div>
         <p
           class="subtle"
           style="margin-top:0.5rem;"

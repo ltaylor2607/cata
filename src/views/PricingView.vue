@@ -1,17 +1,102 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <section>
-    <span class="section-label">Pricing</span>
-    <h1>Flexible for single schools and multi-site organisations</h1>
+    <h1>Packages</h1>
     <p class="note">
-      <strong>Note: </strong>All prices below are indicative guide prices for discussion. Final fees are agreed based on school size, scope, travel and any additional requirements. Day rate available on request.
+      <strong>Note: </strong>Fees are agreed based on school size, scope, travel and any additional requirements. Day rate available on request.
     </p>
-    <h3>Pricing philosophy</h3>
-    <p>The CATA offer is structured around genuine value to the school, not artificial complexity. Three tiers exist for one reason: different schools are at different stages and need different levels of support after the audit. All three tiers include the same core audit and report. Agreed cost will be final, and no additional charges or day rate will be added on.</p>
-    <p class="important">
-      The audit stands alone. You don’t need to commission follow-on work to get full value from Tier 1. The tiers simply reflect how much hands-on implementation support you want after the report is delivered.
-    </p>
+  </section>
+  
+  <section>
+    <h2>Consultancy Offer</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>What's included</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Free Initial Consultation</td>
+          <td>
+            <ul>
+              <li>Identify needs</li>
+              <li>Creating project scope and proposal</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Curriculum Design &amp; Review</td>
+          <td>
+            <ul>
+              <li>Scheme of work development</li>
+              <li>Sequencing</li>
+              <li>Curriculum review</li>
+              <li>Resource creation</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Teaching &amp; Learning CPD</td>
+          <td>
+            <ul>
+              <li>T&L framework design</li>
+              <li>Instructional coaching</li>
+              <li>CPD</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Timetable Design &amp; Restructure</td>
+          <td>
+            <ul>
+              <li>Contact ratio analysis</li>
+              <li>Specialist deployment review</li>
+              <li>Budget-based curriculum</li>
+              <li>Option block design</li>
+              <li>Full timetable build</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Assessment &amp; Data Systems</td>
+          <td>
+            <ul>
+              <li>Data architecture review</li>
+              <li>Dashboard design</li>
+              <li>Data analysis</li>
+              <li>Data literacy training</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Governance Support</td>
+          <td>
+            <ul>
+              <li>Challenge partnership</li>
+              <li>Governor data literacy sessions</li>
+              <li>Reporting redesign</li>
+              <li>Governance cycle review</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>AI Training &amp; Development</td>
+          <td>
+            <ul>
+              <li>Corporate AI training</li>
+              <li>Strategic AI deployment</li>
+              <li>AI &amp; automation</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-    <h3>Core offer</h3>
+  <section>
+    <h2>CATA offer</h2>
     <table>
       <thead>
         <tr>
@@ -19,7 +104,6 @@
             Tier
           </th>
           <th>Name</th>
-          <th>Price guide</th>
           <th>What's included</th>
         </tr>
       </thead>
@@ -27,7 +111,6 @@
         <tr>
           <td>Tier 1</td>
           <td>Audit + Action Plan</td>
-          <td>£400 - £800</td>
           <td>
             <ul>
               <li>Full pre-audit document review</li>
@@ -41,7 +124,6 @@
         <tr>
           <td>Tier 2</td>
           <td>Audit + Implementation Support</td>
-          <td>£1,000 - £3,000</td>
           <td>
             <ul>
               <li>Everything in Tier 1, plus:</li>
@@ -54,7 +136,6 @@
         <tr>
           <td>Tier 3</td>
           <td>Audit + Ongoing Partnership</td>
-          <td>£2,000 - £5,000</td>
           <td>
             <ul>
               <li>Everything in Tier 2, plus:</li>
@@ -67,7 +148,12 @@
         </tr>
       </tbody>
     </table>
+
+    <p class="important">
+      The audit stands alone. You don’t need to commission follow-on work to get full value from Tier 1. The tiers simply reflect how much hands-on implementation support you want after the report is delivered.
+    </p>
   </section>
+
   <KnowMore />
 </template>
 
@@ -80,8 +166,9 @@ table {
   background-color: var(--background-green);
   border: 1px solid var(--sage);
   border-collapse: collapse;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   max-width: 1000px;
+  width: 100%;
 
   th, td {
     border: 1px solid var(--sage);

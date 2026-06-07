@@ -1,34 +1,35 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <section>
     <div class="section-label">
-      CATA Framework
+      Curriculum, Assessment, Teaching Alignment Framework
     </div>
     <h1>CATA: A Framework for Building High-Performing Teams</h1>
     <p>CATA is the diagnostic backbone of Alygn Education. It gives you a structured way to see where your systems are working together — and where they’re quietly working against each other. Most organisations don’t have a quality problem; they have an alignment problem.</p>
   </section>
 
   <section>
-    <div class="two-col">
-      <div class="card">
-        <span class="section-label">What CATA is</span>
-        <h2>Six domains, one alignment question.</h2>
-        <p>CATA looks at six domains that shape the experience of learners and staff:</p>
-        <ul class="list-plain">
-          <li>Curriculum</li>
-          <li>Teaching &amp; Learning</li>
-          <li>Assessment</li>
-          <li>Data &amp; Analytics</li>
-          <li>Timetable</li>
-          <li>Governance</li>
-        </ul>
-        <p>The core idea is simple: it’s not just the quality of each domain that matters — it’s the quality of alignment between them. Misalignment is where workload, confusion and inconsistency creep in.</p>
+    <div class="card">
+      <span class="section-label">What CATA is</span>
+      <div class="two-col">
+        <div>
+          <h2>Six domains, one alignment question.</h2>
+          <p>The core idea is simple: it’s not just the quality of each domain that matters — it’s the quality of alignment between them. Misalignment is where workload, confusion and inconsistency creep in.</p>
+          <p>CATA looks at six domains that shape the experience of learners and staff:</p>
+        </div>
+        <div>
+          <h2>Good people can’t fix bad systems.</h2>
+          <p>When curriculum says one thing, assessment measures another, data reports something else and the timetable quietly undermines everything, even the best staff end up firefighting.</p>
+          <p>CATA exposes the hidden breakpoints so you can fix the system, not the symptoms.</p>
+        </div>
       </div>
-
-      <div class="card">
-        <span class="section-label">Why alignment matters</span>
-        <h2>Good people can’t fix bad systems.</h2>
-        <p>When curriculum says one thing, assessment measures another, data reports something else and the timetable quietly undermines everything, even the best staff end up firefighting.</p>
-        <p>CATA exposes the hidden breakpoints so you can fix the system, not the symptoms.</p>
+        
+      <div class="card allignment-card">
+        <img
+          alt="Allignment model"
+          src="../assets/allignment-model.png"
+          class="allignment-img"
+        >
       </div>
     </div>
   </section>
@@ -121,5 +122,9 @@ const reportPages = ref([
 </script>
 
 <style scoped lang="scss">
-
+.allignment-img {
+  max-width: 600px;
+  margin: auto;
+  width: 100%;
+}
 </style>

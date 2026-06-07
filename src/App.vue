@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <header>
     <div class="nav-inner">
@@ -14,23 +15,13 @@
       <nav>
         <ul>
           <li>
-            <router-link to="/whatwedo">
-              What We Do
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/services">
-              Services
-            </router-link>
-          </li>
-          <li>
             <router-link to="/cata">
               CATA Framework
             </router-link>
           </li>
           <li>
-            <router-link to="/pricing">
-              Pricing
+            <router-link to="/packages">
+              Packages
             </router-link>
           </li>
           <li>
@@ -43,7 +34,7 @@
               href="https://theeducationwayfarer.wordpress.com/"
               target="_blank"
             >
-              Insights
+              Blogs
             </a>
           </li>
         </ul>
@@ -65,17 +56,11 @@
         <router-link to="/">
           Home
         </router-link>
-        <router-link to="/whatwedo">
-          What We Do
-        </router-link>
-        <router-link to="/services">
-          Services
-        </router-link>
         <router-link to="/cata">
           CATA Framework
         </router-link>
-        <router-link to="/pricing">
-          Pricing
+        <router-link to="/packages">
+          Packages
         </router-link>
         <router-link to="/about">
           About
@@ -84,7 +69,7 @@
           href="https://theeducationwayfarer.wordpress.com/"
           target="_blank"
         >
-          Insights
+          Blogs
         </a>
       </div>
     </div>

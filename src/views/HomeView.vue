@@ -1,122 +1,106 @@
+<!-- eslint-disable vue/no-multiple-template-root -->
 <template>
   <section id="home">
     <div class="hero">
       <div>
-        <h1>Helping schools and organisations fix the system-level problems that occur when systems aren't aligned.</h1>
+        <h1>Fixing disconnected systems that hold your people back</h1>
         <p class="hero-sub">
-          Alygn Education helps schools, trusts, training providers and companies diagnose misalignment, see what it’s really costing them, and build a clear, sequenced plan for what to fix first.
+          Book a call for a free 30 minute consultation <ContactButton />
         </p>
-
-        <div class="hero-ctas">
-          <router-link
-            to="/"
-            class="btn-primary"
-          >
-            Book a call
-          </router-link>
-          <router-link
-            to="/cata"
-            class="btn-secondary"
-          >
-            What is CATA?
-          </router-link>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="two-col">
-      <div>
-        <div>
-          <span class="section-label">The problem</span>
-          <h2>Most people in education are not failing. The systems around them are.</h2>
-          <p>
-            When curriculum says one thing, the timetable does another, assessment measures something else and data drives the wrong decisions, you get <span class="emphasis">overloaded staff</span>
-            , <span class="emphasis">confused learners</span> and <span class="emphasis">leaders drowning in noise instead of direction</span>. The best people in the room end up carrying the weight of that misalignment without ever being able to name it.
-          </p>
-        </div>
-        <div>
-          <div class="section-label">
-            The solution
-          </div>
-          <h2>Make your systems work together</h2>
-          <p>
-            Alygn Education exists to do one thing well: make your systems work together. That means diagnosing misalignment with the CATA Alignment Framework, redesigning curriculum, assessment, timetable and data so they pull in the same direction, and building AI and digital capability in a way that’s practical, safe and actually used.
-          </p>
-          <p>
-            You get fewer, better‑connected priorities and a clear order of operations for what to fix first.
-          </p>
-        </div>
-      </div>
-      <div class="card allignment-card">
-        <img
-          alt="Allignment model"
-          src="../assets/allignment-model.png"
-          class="allignment-img"
-        >
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div>
-      <div class="section-label">
-        Three strands of work
-      </div>
-      <div class="three-col">
-        <div class="card">
-          <h2>Schools &amp; Trusts</h2>
-          <ul>
-            <li>Systems alignment</li>
-            <li>Curriculum and programme design</li>
-            <li>CPD design and delivery</li>
-            <li>Timetable design and restructure</li>
-            <li>Assessment design, data systems and review</li>
-            <li>AI integration</li>
-          </ul>
-        </div>
-        <div class="card">
-          <h2>Independent Training Providers</h2>
-          <ul>
-            <li>Corporate training</li>
-            <li>Content and course design</li>
-            <li>Leadership development</li>
-          </ul>
-        </div>
-
-        <div class="card">
-          <h2>Individuals &amp; Teams</h2>
-          <ul>
-            <li>Coaching and mentoring for senior and middle leaders</li>
-            <li>Tutoring for students and apprentices</li>
-            <li>CPD in IT and digital skills</li>
-            <li>Programme and qualification support  across a range of sectors</li>
-          </ul>
-        </div>
       </div>
     </div>
   </section>
 
   <section>
     <div class="section-label">
-      Current partners
+      What can we do for you?
     </div>
-    <h2>Work grounded in real programmes and real learners</h2>
-    <p>
-      I’m currently working with organisations across curriculum, apprenticeship and delivery work. These partnerships keep the work honest: if it doesn’t stand up in real delivery, it doesn’t go on the website.
-    </p>
+    <div class="three-col">
+      <FlipCard
+        front-header="Schools & trusts"
+        back-header="We provide"
+        summary="If you’re a head, senior leader or trust lead, you’re probably dealing with curriculum intent that doesn’t quite match classroom reality, timetables that quietly undermine your best ideas, and assessment and data systems that generate work without generating insight."
+        :list="schoolsList"
+        click-message="Click to see our services"
+      />
+      <FlipCard
+        front-header="Independent Training Providers"
+        back-header="We provide"
+        summary="If you’re running apprenticeships or vocational programmes, you’re juggling standards, funding rules, employer expectations and real learners with real jobs and limited time. You need curriculum and delivery models that work in the real world, not just on paper."
+        :list="itpsList"
+        click-message="Click to see our services" 
+      />
+      <FlipCard
+        front-header="Individuals & Teams"
+        back-header="We provide"
+        summary="Sometimes the system is fine and it’s you who needs space to think. I offer focused, practical support for people who want to build capability, confidence or clarity without a full systems project."
+        :list="individualsList"
+        click-message="Click to see our services"
+      />
+    </div>
+  </section>
 
-    <div class="partners">
-      <div class="partner-tag">
-        <strong>Peak Intelligence -</strong> curriculum &amp; apprenticeship design, digital apprenticeship delivery
+  <section>
+    <router-link
+      to="/cata"
+      class="full-width-button"
+    >
+      <strong>Our Approach: </strong> Curriculum, Assessment, Teaching Alignment Framework
+    </router-link>
+  </section>
+
+  <section>
+    <div class="card">
+      <div class="section-label">
+        Current partners
+      </div>
+      <div class="partners">
+        <div class="partner">
+          <img
+            class="partner-img"
+            src="../assets/peak.jpg"
+            alt="Peak Intelligence Logo"
+          >
+          <div class="partner-name">
+            <strong>Peak Intelligence</strong>
+          </div>
+          <div class="partner-work">
+            Curriculum &amp; apprenticeship design, digital apprenticeship delivery
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <KnowMore />
 </template>
 
 <script setup lang="ts">
+import ContactButton from '@/components/ContactButton.vue';
+import FlipCard from '@/components/FlipCard.vue';
+
+var schoolsList = [
+  "Systems alignment",
+  "Curriculum and programme design",
+  "CPD design and delivery",
+  "Timetable design and restructure",
+  "Assessment design, data systems and review",
+  "AI integration"
+];
+
+var itpsList = [
+  "Curriculum and programme design",
+  "Staff and Leadership development",
+  "Assessment and Data systems",
+  "Quality assurance",
+  "Training and delivery",
+  "AI integration"
+]
+
+var individualsList = [
+  "Coaching and mentoring",
+  "Tutoring",
+  "CPD in IT and digital skills",
+  "AI integration and Training"
+]
 
 </script>
 
@@ -141,8 +125,33 @@
   align-items: center;
 }
 
-.allignment-img {
-  max-width: 100%;
-  margin: auto;
+.full-width-button {
+  display: block;
+  width: 100%;
+  background: rgba(30,107,48,0.2);
+  color: var(--text);
+  padding: 1em;
+  text-align: center;
+  border: 2px solid var(--sage);
+  border-radius: 50px;
+
+  &:hover {
+    background: rgba(30,107,48,0.1);
+  }
+}
+
+.partners {
+  .partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .partner-img {
+      border-radius: 50%;
+      max-width: 100px;
+    }
+  }
 }
 </style>

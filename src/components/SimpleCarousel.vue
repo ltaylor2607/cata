@@ -1,7 +1,7 @@
 <template>
   <div class="carousel">
     <button
-      class="btn-primary"
+      class="btn-carousel"
       @click="prev"
     >
       &lt;
@@ -24,7 +24,7 @@
       </div>
     </div>
     <button
-      class="btn-primary"
+      class="btn-carousel"
       @click="next"
     >
       &gt;
@@ -121,7 +121,8 @@ onMounted(() => {
 .carousel {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 .inner {
@@ -137,6 +138,26 @@ onMounted(() => {
     align-items: center;
     justify-content: center;
     max-height: 100%;
+
+    img {
+      max-width: 100%;
+    }
+}
+
+.btn-carousel {
+  color: var(--forest);
+  width: 48px;
+  background-color: white;
+  opacity: 0.5;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  z-index: 50;
+
+  &:hover {
+    background-color: var(--sage);
+  }
 }
 
 </style>
