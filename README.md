@@ -22,3 +22,9 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Deploying to github pages
+build the project then run
+```
+github subtree push --prefix dist origin gh-pages
+```
