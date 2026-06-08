@@ -26,6 +26,9 @@
             {{ item }}
           </li>
         </ul>
+        <p class="subtle">
+          {{ clickMessageBack }}
+        </p>
       </div>
     </div>
   </div>
@@ -50,6 +53,9 @@ var props = defineProps({
   clickMessage: {
     type: String,
   },
+  clickMessageBack: {
+    type: String,
+  }
 });
 
 var {frontHeader, backHeader, summary, list, clickMessage} = toRefs(props);

@@ -13,7 +13,7 @@
 
   <section>
     <div class="card">
-      <span class="section-label">About Gavin</span>
+      <span class="section-label">About Our Founder</span>
       <h2>The work comes from lived experience</h2>
       <div class="two-col-img-first">
         <div>

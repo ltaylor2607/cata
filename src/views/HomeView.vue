@@ -3,7 +3,7 @@
   <section id="home">
     <div class="hero">
       <div>
-        <h1>Fixing disconnected systems that hold your people back</h1>
+        <h1>Aligning education fundamentals that hold you back</h1>
         <p class="hero-sub">
           Book a call for a free 30 minute consultation <ContactButton />
         </p>
@@ -22,6 +22,7 @@
         summary="If you’re a head, senior leader or trust lead, you’re probably dealing with curriculum intent that doesn’t quite match classroom reality, timetables that quietly undermine your best ideas, and assessment and data systems that generate work without generating insight."
         :list="schoolsList"
         click-message="Click to see our services"
+        click-message-back="Click to see summary"
       />
       <FlipCard
         front-header="Independent Training Providers"
@@ -29,6 +30,7 @@
         summary="If you’re running apprenticeships or vocational programmes, you’re juggling standards, funding rules, employer expectations and real learners with real jobs and limited time. You need curriculum and delivery models that work in the real world, not just on paper."
         :list="itpsList"
         click-message="Click to see our services" 
+        click-message-back="Click to see summary"
       />
       <FlipCard
         front-header="Individuals & Teams"
@@ -36,6 +38,7 @@
         summary="Sometimes the system is fine and it’s you who needs space to think. I offer focused, practical support for people who want to build capability, confidence or clarity without a full systems project."
         :list="individualsList"
         click-message="Click to see our services"
+        click-message-back="Click to see summary"
       />
     </div>
   </section>

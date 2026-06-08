@@ -15,6 +15,11 @@
       <nav>
         <ul>
           <li>
+            <router-link to="/">
+              Home
+            </router-link>
+          </li>
+          <li>
             <router-link to="/cata">
               CATA Framework
             </router-link>
