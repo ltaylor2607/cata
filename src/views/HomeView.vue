@@ -55,7 +55,7 @@
   <section>
     <div class="card">
       <div class="section-label">
-        Current partners
+        Selected client portfolio
       </div>
       <div class="partners">
         <div class="partner">
@@ -67,8 +67,35 @@
           <div class="partner-name">
             <strong>Peak Intelligence</strong>
           </div>
-          <div class="partner-work">
-            Curriculum &amp; apprenticeship design, digital apprenticeship delivery
+        </div>
+        <div class="partner">
+          <img 
+            class="partner-img"
+            src="../assets/tess group.png"
+            alt="TESS Group"
+          />
+          <div class="partner-name">
+            <strong>TESS Group</strong>
+          </div>
+        </div>
+        <div class="partner">
+          <img
+            class="partner-img"
+            src="../assets/datamapwave.jpg"
+            alt="DataMapWave"
+          />
+          <div class="partner-name">
+            <strong>DataMapWave</strong>
+          </div>
+        </div>
+        <div class="partner">
+          <img
+            class="partner-img"
+            src="../assets//st marys.jpg"
+            alt="St Mary's Church of England VA Primary Academy"
+          />
+          <div class="partner-name">
+            <strong>St Mary's Church of England VA Primary Academy</strong>
           </div>
         </div>
       </div>
@@ -144,16 +171,23 @@ var individualsList = [
 }
 
 .partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 120px;
+
   .partner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 
     .partner-img {
-      border-radius: 50%;
+      border-radius: 10%;
       max-width: 100px;
+      max-height: 100px;
+      margin: auto;
     }
   }
 }
